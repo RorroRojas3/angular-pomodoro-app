@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DonationsComponent } from './donations/donations.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     DonationsComponent,
     ProgressBarComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
