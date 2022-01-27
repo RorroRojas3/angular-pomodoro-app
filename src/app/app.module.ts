@@ -8,6 +8,8 @@ import { DonationsComponent } from './donations/donations.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { DonationsCardComponent } from './donations-card/donations-card.component';
+import { CreditsComponent } from './credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FooterComponent } from './footer/footer.component';
     DonationsComponent,
     ProgressBarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    DonationsCardComponent,
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
